@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vinothini S | Developer Portfolio</title>
+    <meta name="description" content="Vinothini S - Software Developer Portfolio">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">VINO<span>.DEV</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="hero section">
+
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Vinothini S</span></h1>
+
+               <h2>I'm a <span id="typingText">Full Stack Developer</span></h2>
+
+                <p class="hero-description">
+                    I am a passionate developer interested in creating
+                    modern, responsive and user-friendly web applications.
+                    I enjoy learning new technologies and solving problems
+                    through code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn outline-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://github.com/vinothinisaravanan003-rgb"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/in/vinothini-s-50aa87415"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <div class="profile-text">
+                        <span>V</span>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <span>💻</span>
+                    <p>Building My Future</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>I'm an Aspiring Developer</h3>
+
+                    <p>
+                        Hello! I'm Vinothini S. I completed my B.Sc.
+                        Information Technology in 2026 at Muthayammal
+                        College of Arts and Science.
+                    </p>
+
+                    <p>
+                        I have basic knowledge of HTML, CSS, JavaScript,
+                        Python and SQL. I am interested in web development
+                        and continuously improving my technical skills.
+                    </p>
+
+                    <a href="Vinothini_S_Resume_final.pdf"
+                       class="btn primary-btn" download>
+                        Download My Resume ↓
+                    </a>
+                </div>
+
+                <div class="education-card">
+                    <span class="card-icon">🎓</span>
+                    <h3>Education</h3>
+                    <h4>B.Sc. Information Technology</h4>
+                    <p>Muthayammal College of Arts and Science</p>
+                    <span class="year">2026</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p>MY TECHNICAL KNOWLEDGE</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span>🌐</span>
+                    <h3>HTML</h3>
+                    <p>Web Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🎨</span>
+                    <h3>CSS</h3>
+                    <p>Web Styling</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🐍</span>
+                    <h3>Python</h3>
+                    <p>Programming Basics</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🗄️</span>
+                    <h3>SQL</h3>
+                    <p>Database Basics</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p>MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-icon">🏫</div>
+                    <h3>Smart Lab Booking Management System</h3>
+
+                    <p>
+                        A Python-based application that allows users
+                        to register, login, check lab availability,
+                        book and cancel lab reservations.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Database</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">⚡</div>
+                    <h3>Electricity Usage Analyzer</h3>
+
+                    <p>
+                        A web application to calculate electricity
+                        consumption and estimate electricity bills
+                        based on appliance usage.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p>LET'S WORK TOGETHER</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's connect!</h3>
+                    <p>
+                        Have a project idea or an opportunity?
+                        Send me a message. I'd love to hear from you.
+                    </p>
+
+                    <p>📧 vinothinisaravanan003@gmail.com</p>
+                    <p>📍 Tamil Nadu, India</p>
+                </div>
+
+                <form id="contactForm">
+
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Your Message"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit" id="sendBtn" class="btn primary-btn">
+                        Send Message →
+                    </button>
+
+                    <p id="formStatus" aria-live="polite"></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Vinothini S | VINO.DEV</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+   
+
+    <script src="script.js"></script>
+
+</body>
+</html>
